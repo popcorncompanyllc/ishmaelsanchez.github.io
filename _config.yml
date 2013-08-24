@@ -1,0 +1,76 @@
+# Site CONSTANTS ===================================================== #
+
+constants:
+
+  # Locale and encoding
+  lang: en-US
+  locale: en_US
+  encoding: utf-8
+
+  # Name (Brand), Tagline and Meta Image (Og)
+  name: Popcorn Company LLC
+  tagline: Tagline
+  description: |
+    Popcorn Company descriptions
+
+  # Contact and Domain
+  email: shawn@thepopcorncompanyllc.com
+  domain: thepopcorncompanyllc.com
+
+  # Social Media User Names (Not full URL)
+  twitter: thepopcorncompanyllc
+  facebook: thepopcorncompanyllc
+  #gplus: 103492502746159725544
+  pinterest: thepopcorncompanyllc
+  linkedin: thepopcorncompanyllc
+
+  # Feedburner Feed Name
+  feed-name: thepopcorncompanyllc
+
+  # Meta Admin / Verify IDs
+  #gplus-publisher: 103492502746159725544
+
+  # Default author for Posts
+  author:
+    name: Shawn Simon
+    domain: thepopcorncompanyllc
+
+# Jekyll Config ====================================================== #
+
+auto: false
+server: false
+safe: true
+lsi: false
+pygments: true
+
+# To run the site from a sub-dir, e.g., /site
+# Yes leading-slash. No trailing-slash
+baseurl:
+
+# Used any place a where an absolute URL is required.
+#
+#
+# If using jekyll --server locally, use: http://localhost:PORT
+# Default PORT is usually 4000
+#
+# If using MAMP/XAMP locally, use your local host name such as
+# sitename.localhost
+# pygments: true
+# For production, set to the HTTP server domain.
+# Be sure to use http://
+url: http://localhost:4000
+
+# You can use a directory name here to have just the _posts
+# served from an sub-directory, e.g., /blog
+#
+# In that case, your permalink value might be: /blog/:title/
+#
+# NOTE: This is different from the baseurl variable above;
+# as it only affects the _posts directory, a.k.a., Blog.
+permalink: /blog/:title/
+
+markdown: redcarpet
+paginate: 10
+
+include: ['.htaccess', '_pages']
+exclude: ['package.json', 'node_modules']
