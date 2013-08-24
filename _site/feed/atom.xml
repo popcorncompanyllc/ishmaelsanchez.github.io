@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title></title>
+    <link href="http://localhost:4000/"/>
+    <link type="application/atom+xml" rel="self" href="http://localhost:4000/atom.xml"/>
+    <updated>2013-08-24T14:50:18-07:00</updated>
+    <id>http://localhost:4000</id>
+    <author>
+        <name></name>
+        <email></email>
+    </author>
+
+    
+    <entry>
+        <id>http://localhost:4000/blog/welcome-to-jekyll</id>
+        <link type="text/html" rel="alternate" href="http://localhost:4000/blog/welcome-to-jekyll/"/>
+        <title>Welcome to Jekyll!</title>
+        <updated>2013-08-07T16:39:04-07:00</updated>
+        <author>
+            <name></name>
+            <uri>http://localhost:4000/</uri>
+        </author>
+        <content type="html">&lt;p&gt;You&amp;#39;ll find this post in your &lt;code&gt;_posts&lt;/code&gt; directory - edit this post and re-build (or run with the &lt;code&gt;-w&lt;/code&gt; switch) to see your changes!
+To add new posts, simply add a file in the &lt;code&gt;_posts&lt;/code&gt; directory that follows the convention: YYYY-MM-DD-name-of-post.ext.&lt;/p&gt;
+
+&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;Jekyll&amp;#39;s GitHub repo&lt;/a&gt;.&lt;/p&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <id>http://localhost:4000/blog/test-post</id>
+        <link type="text/html" rel="alternate" href="http://localhost:4000/blog/test-post/"/>
+        <title>Placeholder Post 4 Test post.</title>
+        <updated>2013-04-05T00:00:00-07:00</updated>
+        <author>
+            <name></name>
+            <uri>http://localhost:4000/</uri>
+        </author>
+        <content type="html">&lt;p&gt;&lt;strong&gt;Placeholder Post 4 Test post.&lt;/strong&gt; written in Markdown. 4 Test Post.&lt;/p&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <id>http://localhost:4000/blog/post-3</id>
+        <link type="text/html" rel="alternate" href="http://localhost:4000/blog/post-3/"/>
+        <title>Placeholder Post 3</title>
+        <updated>1970-01-03T00:00:00-08:00</updated>
+        <author>
+            <name></name>
+            <uri>http://localhost:4000/</uri>
+        </author>
+        <content type="html">&lt;p&gt;&lt;strong&gt;Placeholder Post 3&lt;/strong&gt; written in Markdown. 3&lt;/p&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <id>http://localhost:4000/blog/post-2</id>
+        <link type="text/html" rel="alternate" href="http://localhost:4000/blog/post-2/"/>
+        <title>Placeholder Post 2</title>
+        <updated>1970-01-02T00:00:00-08:00</updated>
+        <author>
+            <name></name>
+            <uri>http://localhost:4000/</uri>
+        </author>
+        <content type="html">&lt;p&gt;&lt;strong&gt;Placeholder Post 2&lt;/strong&gt; written in Markdown. 2&lt;/p&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <id>http://localhost:4000/blog/post-1</id>
+        <link type="text/html" rel="alternate" href="http://localhost:4000/blog/post-1/"/>
+        <title>Placeholder Post 1</title>
+        <updated>1970-01-01T00:00:00-08:00</updated>
+        <author>
+            <name></name>
+            <uri>http://localhost:4000/</uri>
+        </author>
+        <content type="html">&lt;p&gt;&lt;strong&gt;Placeholder Post 1&lt;/strong&gt; written in Markdown. 1&lt;/p&gt;
+</content>
+    </entry>
+    
+    <entry>
+        <id>http://localhost:4000/blog/placeholder-post</id>
+        <link type="text/html" rel="alternate" href="http://localhost:4000/blog/placeholder-post/"/>
+        <title>Placeholder Post</title>
+        <updated>1970-01-01T00:00:00-08:00</updated>
+        <author>
+            <name></name>
+            <uri>http://localhost:4000/</uri>
+        </author>
+        <content type="html">&lt;p&gt;&lt;strong&gt;Placeholder Post&lt;/strong&gt; written in Markdown.&lt;/p&gt;
+</content>
+    </entry>
+    
+</feed>
