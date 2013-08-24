@@ -1,0 +1,114 @@
+// Global Foundation Settings
+@import "settings";
+
+// Comment out this import if you don't want to use normalize
+@import "normalize";
+
+// Comment out this import if you are customizing you imports below
+//@import "foundation";
+
+// Import specific parts of Foundation by commenting the import "foundation"
+// and uncommenting what you want below. You must uncomment the following if customizing
+
+@import "foundation/components/global"; // *always required
+@import "foundation/components/grid";
+
+//
+// Use this grid if you want to start using the new Foundation 5 grid early.
+// It will change breakpoints to min-width: 640px and 1024px.
+//
+// @import "foundation/components/grid-5";
+//
+
+@import "foundation/components/visibility";
+@import "foundation/components/block-grid";
+@import "foundation/components/type";
+@import "foundation/components/buttons";
+@import "foundation/components/forms"; // *requires components/buttons
+@import "foundation/components/custom-forms"; // *requires components/buttons, components/forms
+@import "foundation/components/button-groups"; // *requires components/buttons
+@import "foundation/components/dropdown-buttons"; // *requires components/buttons
+// @import "foundation/components/split-buttons"; // *requires components/buttons
+// @import "foundation/components/flex-video";
+@import "foundation/components/section";
+@import "foundation/components/top-bar";  // *requires components/grid
+@import "foundation/components/orbit";
+@import "foundation/components/reveal";
+// @import "foundation/components/joyride";
+@import "foundation/components/clearing";
+@import "foundation/components/alert-boxes";
+@import "foundation/components/breadcrumbs";
+// @import "foundation/components/keystrokes";
+@import "foundation/components/labels";
+@import "foundation/components/inline-lists";
+@import "foundation/components/pagination";
+@import "foundation/components/panels";
+// @import "foundation/components/pricing-tables";
+// @import "foundation/components/progress-bars";
+@import "foundation/components/side-nav";
+@import "foundation/components/sub-nav";
+// @import "foundation/components/switch";
+// @import "foundation/components/magellan";
+@import "foundation/components/tables";
+@import "foundation/components/thumbs";
+// @import "foundation/components/tooltips";
+@import "foundation/components/dropdown";
+
+// Get all the CSS3 goodies
+@import "compass/css3";
+
+// HTML elements
+.body {background:#90121d url('../img/main-bg.jpg') scroll no-repeat center center;}
+.body > .row {background-color:#fff;}
+.radius-top {@include border-radius(10px 10px 0 0);}
+.radius-bottom {@include border-radius(0 0 10px 10px);}
+
+.site-link {color:#fff;}
+
+.home-header {
+  font-size:2.5em;
+  margin:10px 0 15px
+}
+
+.top-bar .site-name {
+ color:#555;
+ font-family:'Ribeye Marrow', cursive;
+ font-weight:bold;
+ line-height: 45px;
+ margin:0 10px;
+}
+
+.call-to-action {text-transform:uppercase;}
+.thumbnails {margin-top:20px;}
+
+.footer {margin:50px 0;}
+
+.footer-header {
+  border-bottom:1px solid #d9d9d9;
+  font-size:1.25em;
+  letter-spacing:1px;
+  text-transform:uppercase;
+}
+
+.footer .row {
+    background-color:#fff;
+    border:1px solid #d9d9d9;
+    @include box-shadow(2px 2px 10px #222);
+    @include border-radius(10px);
+    padding-top:15px;
+    padding-bottom:15px;
+ }
+
+.bottom-bar {
+  background-color:#d9d9d9;
+  border:5px dashed #f2f2f2;
+  color:#000;
+  padding:10px;
+  p {
+    font-size:.875em;
+    @include text-shadow(1px 1px 1px #222);
+  }
+}
+
+.copyright, .credit {margin-bottom:0;}
+

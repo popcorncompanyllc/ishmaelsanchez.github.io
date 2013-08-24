@@ -1,0 +1,43 @@
+<footer class="footer" role="contentinfo">
+  <div class="row">
+    <div class="large-5 columns">
+      <h3 class="footer-header">About The Popcorn Company</h3>
+      <p>We offer popcorn machines, popcorn supplies, cotton candy machines and supplies, shaved ice and snow cone makers, frozen drink machines, snack bar supplies and even carnival games!</p>
+    </div>
+    <div class="large-3 columns">
+      <h3 class="footer-header">Our Products</h3>
+      <ul class="">
+        <li><a href="/rentals">Rentals</a></li>
+        <li><a href="/machines">Machines</a></li>
+        <li><a href="/supplies">Supplies</a></li>
+      </ul>
+    </div>
+    <div class="large-4 columns">
+      <h3 class="footer-header">Contact</h3>
+      Contact information and address<br />
+      1-800-287-2676
+    </div>
+  </div>
+</footer>
+<div class="bottom-bar">
+  <div class="row">
+    <div class="large-9 columns ">
+      <p class="copyright">&copy; {{ site.constants.name }}. All Rights Reserved. {{ site.constants.tagline }}.</p>
+      <p class="credit">Site by <a href="http://ishmaelsanchez.com">Ishmael Sanchez</a></p>
+    </div>
+    <div class="large-3 columns">
+     Social Media Icons
+    </div>
+  </div>
+</div>
+  {% include analytics.html %}
+  <script>
+    document.write('<script src={{ site.baseurl }}/js/vendor/' + ('__proto__' in {} ? 'zepto' : 'jquery') + '.js><\/script>')
+  </script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.js"></script>
+  <script src="{{ site.baseurl }}/js/foundation/foundation.topbar.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+</body>
+</html>
