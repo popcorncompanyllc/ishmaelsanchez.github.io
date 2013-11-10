@@ -62,13 +62,15 @@
 .body > .row {background-color:#fff;}
 .radius-top {@include border-radius(10px 10px 0 0);}
 .radius-bottom {@include border-radius(0 0 10px 10px);}
-
+#main {@include border-radius(10px);}
 .site-link {color:#fff;}
 
-.home-header {
-  font-size:2.5em;
-  margin:10px 0 15px
+.footer li, #main li {
+  list-style-image:url('../img/popcorn.png');
+  list-style-type: none;
 }
+
+.home-header {margin:5px 0;}
 
 .top-bar .site-name {
  color:#555;
@@ -77,14 +79,27 @@
  line-height: 45px;
  margin:0 10px;
 }
+
 .featured {
   border:1px solid $primary-color;
   @extend .in-touch;
 }
 
-.in-touch {@include box-shadow(1px 1px 1px 2px #ccc);}
-.call-to-action {text-transform:uppercase;}
+.button {
+  @include text-shadow(1px -1px 1px #000);
+}
+
+.in-touch {@include box-shadow(1px 1px 1px 2px #d9d9d9);}
+
+.call-to-action {
+  @include background-image(linear-gradient(#e31b23, $primary-color));
+  margin:15px 0 35px;
+  text-transform:uppercase;
+  width:100%;
+}
+
 .thumbnails {margin-top:20px;}
+.home-highlights {padding:25px 0;}
 .footer {margin:50px 0;}
 
 .footer-header {
@@ -93,6 +108,10 @@
   letter-spacing:1px;
   padding:0 0 5px;
   text-transform:uppercase;
+}
+
+[data-clearing] li {
+  margin-right:0;
 }
 
 .footer .row {
@@ -105,15 +124,16 @@
  }
 
 .bottom-bar {
-  background-color:#d9d9d9;
-  border:5px dashed #f2f2f2;
-  color:#000;
-  padding:10px;
+  background:#222 url(../img/footer-bg.jpg) scroll 0 0;
+  border-top:1px solid #000;
+  color:#777;
+  padding:20px 0;
   p {
     font-size:.875em;
-    @include text-shadow(1px 1px 1px #222);
+    @include text-shadow(1px -1px 1px #000);
   }
 }
 
 .copyright, .credit {margin-bottom:0;}
+.credit-link {color:#777;}
 .copyright {margin-top:5px;}
