@@ -568,8 +568,8 @@ select {
 /* line 124, ../../../lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_grid.scss */
 .row .row {
   width: auto;
-  margin-left: -0.9375em;
-  margin-right: -0.9375em;
+  margin-left: -1.25em;
+  margin-right: -1.25em;
   margin-top: 0;
   margin-bottom: 0;
   max-width: none;
@@ -605,8 +605,8 @@ select {
 .column,
 .columns {
   position: relative;
-  padding-left: 0.9375em;
-  padding-right: 0.9375em;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
   width: 100%;
   float: left;
 }
@@ -616,8 +616,8 @@ select {
   .column,
   .columns {
     position: relative;
-    padding-left: 0.9375em;
-    padding-right: 0.9375em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
     float: left;
   }
 
@@ -2055,22 +2055,22 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 
 /* line 198, ../../../lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
 h1 {
-  font-size: 2.125em;
+  font-size: 1.875em;
 }
 
 /* line 199, ../../../lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
 h2 {
-  font-size: 1.6875em;
+  font-size: 1.5625em;
 }
 
 /* line 200, ../../../lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
 h3 {
-  font-size: 1.375em;
+  font-size: 1.5625em;
 }
 
 /* line 201, ../../../lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
 h4 {
-  font-size: 1.125em;
+  font-size: 0.9375em;
 }
 
 /* line 202, ../../../lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
@@ -2272,22 +2272,22 @@ blockquote p {
 
   /* line 367, ../../../lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
   h1 {
-    font-size: 2.75em;
+    font-size: 2.5em;
   }
 
   /* line 368, ../../../lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
   h2 {
-    font-size: 2.3125em;
+    font-size: 2.1875em;
   }
 
   /* line 369, ../../../lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
   h3 {
-    font-size: 1.6875em;
+    font-size: 1.875em;
   }
 
   /* line 370, ../../../lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_type.scss */
   h4 {
-    font-size: 1.4375em;
+    font-size: 1.25em;
   }
 }
 /*
@@ -5725,7 +5725,7 @@ form.custom .custom.disabled {
   /* line 172, ../../../lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_clearing.scss */
   .clearing-assembled .clearing-container .carousel > ul li {
     display: block;
-    width: 175px;
+    width: 150px;
     height: inherit;
     padding: 0;
     float: left;
@@ -6037,10 +6037,10 @@ ul.pagination li {
 .panel {
   border-style: dashed;
   border-width: 2px;
-  border-color: #d9d9d9;
+  border-color: #999999;
   margin-bottom: 1.25em;
   padding: 1.25em;
-  background: #f2f2f2;
+  background: #d9d9d9;
 }
 /* line 44, ../../../lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
 .panel > :first-child {
@@ -6052,7 +6052,7 @@ ul.pagination li {
 }
 /* line 50, ../../../lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
 .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p {
-  color: #333333;
+  color: #222222;
 }
 /* line 54, ../../../lib/gems/1.9.1/gems/zurb-foundation-4.3.1/scss/foundation/components/_panels.scss */
 .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
@@ -6067,7 +6067,7 @@ ul.pagination li {
 .panel.callout {
   border-style: dashed;
   border-width: 2px;
-  border-color: #8b0101;
+  border-color: #3f0100;
   margin-bottom: 1.25em;
   padding: 1.25em;
   background: #be0201;
@@ -6401,18 +6401,32 @@ a.th {
   border-radius: 0 0 10px 10px;
 }
 
+/* line 65, ../sass/app.scss */
+#main {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+}
+
 /* line 66, ../sass/app.scss */
 .site-link {
   color: #fff;
 }
 
 /* line 68, ../sass/app.scss */
-.home-header {
-  font-size: 2.5em;
-  margin: 10px 0 15px;
+.footer li, #main li {
+  list-style-image: url("../img/popcorn.png");
+  list-style-type: none;
 }
 
 /* line 73, ../sass/app.scss */
+.home-header {
+  margin: 5px 0;
+}
+
+/* line 75, ../sass/app.scss */
 .top-bar .site-name {
   color: #555;
   font-family: 'Ribeye Marrow', cursive;
@@ -6421,34 +6435,51 @@ a.th {
   margin: 0 10px;
 }
 
-/* line 80, ../sass/app.scss */
+/* line 83, ../sass/app.scss */
 .featured {
   border: 1px solid #be0201;
 }
 
-/* line 85, ../sass/app.scss */
+/* line 88, ../sass/app.scss */
+.button {
+  text-shadow: 1px -1px 1px black;
+}
+
+/* line 92, ../sass/app.scss */
 .in-touch, .featured {
-  -webkit-box-shadow: 1px 1px 1px 2px #cccccc;
-  -moz-box-shadow: 1px 1px 1px 2px #cccccc;
-  box-shadow: 1px 1px 1px 2px #cccccc;
+  -webkit-box-shadow: 1px 1px 1px 2px #d9d9d9;
+  -moz-box-shadow: 1px 1px 1px 2px #d9d9d9;
+  box-shadow: 1px 1px 1px 2px #d9d9d9;
 }
 
-/* line 86, ../sass/app.scss */
+/* line 94, ../sass/app.scss */
 .call-to-action {
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e31b23), color-stop(100%, #be0201));
+  background-image: -webkit-linear-gradient(#e31b23, #be0201);
+  background-image: -moz-linear-gradient(#e31b23, #be0201);
+  background-image: -o-linear-gradient(#e31b23, #be0201);
+  background-image: linear-gradient(#e31b23, #be0201);
+  margin: 15px 0 35px;
   text-transform: uppercase;
+  width: 100%;
 }
 
-/* line 87, ../sass/app.scss */
+/* line 101, ../sass/app.scss */
 .thumbnails {
   margin-top: 20px;
 }
 
-/* line 88, ../sass/app.scss */
+/* line 102, ../sass/app.scss */
+.home-highlights {
+  padding: 25px 0;
+}
+
+/* line 103, ../sass/app.scss */
 .footer {
   margin: 50px 0;
 }
 
-/* line 90, ../sass/app.scss */
+/* line 105, ../sass/app.scss */
 .footer-header {
   border-bottom: 1px solid #ccc;
   font-size: 1.25em;
@@ -6457,7 +6488,12 @@ a.th {
   text-transform: uppercase;
 }
 
-/* line 98, ../sass/app.scss */
+/* line 113, ../sass/app.scss */
+[data-clearing] li {
+  margin-right: 0;
+}
+
+/* line 117, ../sass/app.scss */
 .footer .row {
   background-color: #fff;
   border: 1px solid #d9d9d9;
@@ -6473,25 +6509,30 @@ a.th {
   padding-bottom: 15px;
 }
 
-/* line 107, ../sass/app.scss */
+/* line 126, ../sass/app.scss */
 .bottom-bar {
-  background-color: #d9d9d9;
-  border: 5px dashed #f2f2f2;
-  color: #000;
-  padding: 10px;
+  background: #222222 url(../img/footer-bg.jpg) scroll 0 0;
+  border-top: 1px solid #000;
+  color: #777;
+  padding: 20px 0;
 }
-/* line 112, ../sass/app.scss */
+/* line 131, ../sass/app.scss */
 .bottom-bar p {
   font-size: .875em;
-  text-shadow: 1px 1px 1px #222222;
+  text-shadow: 1px -1px 1px black;
 }
 
-/* line 118, ../sass/app.scss */
+/* line 137, ../sass/app.scss */
 .copyright, .credit {
   margin-bottom: 0;
 }
 
-/* line 119, ../sass/app.scss */
+/* line 138, ../sass/app.scss */
+.credit-link {
+  color: #777;
+}
+
+/* line 139, ../sass/app.scss */
 .copyright {
   margin-top: 5px;
 }
