@@ -62,15 +62,18 @@
 .body > .row {background-color:#fff;}
 .radius-top {@include border-radius(10px 10px 0 0);}
 .radius-bottom {@include border-radius(0 0 10px 10px);}
-#main {@include border-radius(10px);}
+#main {@include border-radius(10px 10px 0 0);}
 .site-link {color:#fff;}
 
-.footer li, #main li {
+.call-outs li, #main li {
   list-style-image:url('../img/popcorn.png');
   list-style-type: none;
 }
 
-.home-header {margin:5px 0;}
+.home-header {
+  font-size:3.25em;
+  margin:0 0 10px;
+}
 
 .top-bar .site-name {
  color:#555;
@@ -79,6 +82,8 @@
  line-height: 45px;
  margin:0 10px;
 }
+
+.home-image {margin-top:20px}
 
 .featured {
   border:1px solid $primary-color;
@@ -94,12 +99,9 @@
 .call-to-action {
   @include background-image(linear-gradient(#e31b23, $primary-color));
   margin:15px 0 35px;
-  text-transform:uppercase;
   width:100%;
 }
 
-.thumbnails {margin-top:20px;}
-.home-highlights {padding:25px 0;}
 .footer {margin:50px 0;}
 
 .footer-header {
@@ -114,12 +116,13 @@
   margin-right:0;
 }
 
-.footer .row {
+.call-outs > .row {
     background-color:#fff;
     border:1px solid #d9d9d9;
-    @include box-shadow(2px 2px 10px #222);
-    @include border-radius(10px);
-    padding-top:15px;
+    // @include box-shadow(2px 2px 10px #222);
+    @include border-radius(0 0 10px 10px);
+    margin-bottom:40px;
+    padding-top:25px;
     padding-bottom:15px;
  }
 
