@@ -14,14 +14,14 @@
     </div>
     <div class="large-4 columns">
       <h3 class="footer-header"><a href="/contact">Contact</a></h3>
-      <p>Call <span itemprop="telephone">1-800-287-2676</span>! <br /><strong>Free delivery on all orders</strong>.</p>
+      <p>Call 1-800-287-2676! <br /><strong>Free delivery on all orders</strong>.</p>
       <p>Ship directly to <em>any location outside of California</em>. <p>
     </div>
   </div>
 </div>
-<footer class="bottom-bar">
+<footer class="bottom-bar" itemscope itemtype="http://schema.org/Organization">
   <div class="row">
-    <div class="large-9 columns ">
+    <div class="large-9 columns">
       <ul>
         <li>Medallion Distributor of Gold Medal products</li>
         <li>Authorized Distributor of Weaver Popcorn</li>
@@ -37,13 +37,12 @@
   </div>
   <div class="row">
     <div class="large-6 columns">
-      <p class="copyright text-left">&copy; {{ site.constants.name }}. All Rights Reserved.</p>
+      <p class="copyright text-left">&copy; <a href="http://www.thepopcorncompanyllc.com" itemprop="url"><span itemprop="name">{{ site.constants.name }}<></a> <span itemprop="telephone">1-800-287-2676</span>. All Rights Reserved.</p>
     </div>
     <div class="large-6 columns">
       <p class="credit text-right">Site by <a class="credit-link" href="http://ishmaelsanchez.com">Ishmael Sanchez</a></p>
     </div>
 </footer>
-  {% include analytics.html %}
   <script>
     document.write('<script src={{ site.baseurl }}/js/vendor/' + ('__proto__' in {} ? 'zepto' : 'jquery') + '.js><\/script>')
   </script>
