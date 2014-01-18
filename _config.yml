@@ -8,10 +8,8 @@ constants:
   encoding: utf-8
 
   # Name (Brand), Tagline and Meta Image (Og)
-  name: Popcorn Company LLC
-  tagline: Tagline
-  description: |
-    Popcorn Company descriptions
+  name: Popcorn Company
+  # tagline: Tagline
 
   # Contact and Domain
   email: shawn@thepopcorncompanyllc.com

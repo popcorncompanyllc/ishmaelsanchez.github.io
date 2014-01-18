@@ -5,11 +5,11 @@
   <meta charset="{{ site.constants.encoding }}" />
   <meta name="viewport" content="width=device-width" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="description" content="{{ site.constants.description }}"/>
+  <meta name="description" content="{{ page.description }}"/>
   <meta itemprop="name" content="{{ site.constants.name }}">
   <link rel="canonical" href="http://wwww.thepopcorncompanyllc.com/" />
   <title>
-    {% if page.title %}{{ page.title }} | {% endif %}{{ site.constants.name }}{% if page.type == 'home' %} | {{ site.constants.tagline }}{% endif %}
+    {% if page.title %}{{ page.title }} | {% endif %}{{ site.constants.name }}
   </title>
   <link rel="alternate" type="application/rss+xml" title="{{ site.constants.name }}" href="//feeds.feedburner.com/{{ site.constants.feed-name }}" />
   <link rel="publisher" href="https://plus.google.com/{{ site.constants.gplus-publisher }}" />
@@ -18,7 +18,6 @@
   <link rel="apple-touch-icon-precomposed" href="{{ site.baseurl }}/img/apple-touch-icon-precomposed.png">
   <link rel="shortcut icon" href="{{ site.baseurl }}/img/apple-touch-icon.png">
   <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico">
-<!-- <link href='http://fonts.googleapis.com/css?family=Vast+Shadow|Sancreek|Diplomata|Luckiest+Guy|Purple+Purse|Miltonian|Jacques+Francois+Shadow|Londrina+Shadow|Kranky' rel='stylesheet' type='text/css'> -->
   <link href='http://fonts.googleapis.com/css?family=Ribeye+Marrow' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/css/app.css" />
   <script src="/js/vendor/custom.modernizr.js"></script>
