@@ -86,15 +86,15 @@
 .home-image {margin-top:20px}
 
 .featured {
-  border:1px solid #ffcc01;
-  @extend .in-touch;
+  border:2px solid #ffcc01;
+  @extend .std-shadow;
 }
 
 .button {
   @include text-shadow(1px -1px 1px #000);
 }
 
-.in-touch {@include box-shadow(1px 1px 1px 2px #d9d9d9);}
+.std-shadow {@include box-shadow(2px 3px 5px 1px #999);}
 
 .call-to-action {
   @include background-image(linear-gradient(#e31b23, $primary-color));

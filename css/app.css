@@ -6443,7 +6443,7 @@ a.th {
 
 /* line 88, ../sass/app.scss */
 .featured {
-  border: 1px solid #ffcc01;
+  border: 2px solid #ffcc01;
 }
 
 /* line 93, ../sass/app.scss */
@@ -6452,10 +6452,10 @@ a.th {
 }
 
 /* line 97, ../sass/app.scss */
-.in-touch, .featured {
-  -webkit-box-shadow: 1px 1px 1px 2px #d9d9d9;
-  -moz-box-shadow: 1px 1px 1px 2px #d9d9d9;
-  box-shadow: 1px 1px 1px 2px #d9d9d9;
+.std-shadow, .featured {
+  -webkit-box-shadow: 2px 3px 5px 1px #999999;
+  -moz-box-shadow: 2px 3px 5px 1px #999999;
+  box-shadow: 2px 3px 5px 1px #999999;
 }
 
 /* line 99, ../sass/app.scss */
