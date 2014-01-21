@@ -6443,7 +6443,7 @@ a.th {
 
 /* line 88, ../sass/app.scss */
 .featured {
-  border: 1px solid #be0201;
+  border: 1px solid #ffcc01;
 }
 
 /* line 93, ../sass/app.scss */
@@ -6512,6 +6512,11 @@ a.th {
 .bottom-bar p {
   font-size: .875em;
   text-shadow: 1px -1px 1px black;
+}
+
+/* line 137, ../sass/app.scss */
+.highlight {
+  color: #006AB1;
 }
 
 /* line 138, ../sass/app.scss */

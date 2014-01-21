@@ -86,7 +86,7 @@
 .home-image {margin-top:20px}
 
 .featured {
-  border:1px solid $primary-color;
+  border:1px solid #ffcc01;
   @extend .in-touch;
 }
 
@@ -134,7 +134,7 @@
     @include text-shadow(1px -1px 1px #000);
   }
 }
-
+.highlight {color:#006AB1;}
 .copyright, .credit {margin-bottom:0;}
 .credit-link {color:#777;}
 .copyright {margin-top:5px;}
