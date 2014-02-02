@@ -6430,7 +6430,7 @@ a.th {
 /* line 78, ../sass/app.scss */
 .top-bar .site-name {
   color: #555;
-  font-family: 'Ribeye Marrow', cursive;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: bold;
   line-height: 45px;
   margin: 0 10px;
