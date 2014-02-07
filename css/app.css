@@ -6506,30 +6506,56 @@ a.th {
   background: #222222 url(../img/footer-bg.jpg) scroll 0 0;
   border-top: 1px solid #000;
   color: #777;
-  padding: 20px 0;
+  padding: 40px 0 5px;
 }
-/* line 132, ../sass/app.scss */
-.bottom-bar p {
+
+/* line 134, ../sass/app.scss */
+.copyright-credit {
   font-size: .875em;
+  margin-top: 20px;
+  margin-bottom: 0;
   text-shadow: 1px -1px 1px black;
 }
 
-/* line 137, ../sass/app.scss */
+/* line 141, ../sass/app.scss */
+.bottom-bar-header {
+  border-bottom: 1px solid;
+  color: #fff;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  line-height: 1;
+  letter-spacing: 2px;
+  padding-bottom: 5px;
+}
+
+/* line 150, ../sass/app.scss */
 .highlight {
   color: #006AB1;
 }
 
-/* line 138, ../sass/app.scss */
-.copyright, .credit {
-  margin-bottom: 0;
-}
-
-/* line 139, ../sass/app.scss */
+/* line 151, ../sass/app.scss */
 .credit-link {
   color: #777;
 }
 
-/* line 140, ../sass/app.scss */
-.copyright {
-  margin-top: 5px;
+/* line 154, ../sass/app.scss */
+.flyer .panel {
+  border-style: solid;
+  font-size: 1.25em;
+}
+
+/* line 159, ../sass/app.scss */
+.flyer .map-link {
+  color: #fff;
+}
+
+/* line 160, ../sass/app.scss */
+.flyer .flyer-thumbs {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* line 161, ../sass/app.scss */
+.flyer > h2 {
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  margin-left: .75em;
 }

@@ -128,13 +128,37 @@
   background:#222 url(../img/footer-bg.jpg) scroll 0 0;
   border-top:1px solid #000;
   color:#777;
-  padding:20px 0;
-  p {
-    font-size:.875em;
-    @include text-shadow(1px -1px 1px #000);
-  }
+  padding:40px 0 5px;
 }
+
+.copyright-credit {
+  font-size:.875em;
+  margin-top:20px;
+  margin-bottom:0;
+  @include text-shadow(1px -1px 1px #000);
+}
+
+.bottom-bar-header {
+  border-bottom:1px solid;
+  color:#fff;
+  font-family:"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  line-height:1;
+  letter-spacing:2px;
+  padding-bottom:5px;
+}
+
 .highlight {color:#006AB1;}
-.copyright, .credit {margin-bottom:0;}
 .credit-link {color:#777;}
-.copyright {margin-top:5px;}
+
+
+.flyer .panel {
+  border-style:solid;
+  font-size:1.25em;
+}
+
+.flyer .map-link {color:#fff;}
+.flyer .flyer-thumbs {padding-left:0;padding-right:0;}
+.flyer > h2 {
+  font-family:"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  margin-left:.75em;
+}
