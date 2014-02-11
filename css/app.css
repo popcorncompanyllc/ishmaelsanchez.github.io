@@ -6542,6 +6542,11 @@ a.th {
   color: #777;
 }
 
+/* line 153, ../sass/app.scss */
+.distributor-logos {
+  padding-top: 5px;
+}
+
 /* line 155, ../sass/app.scss */
 .flyer .panel {
   border-style: solid;
