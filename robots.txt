@@ -4,4 +4,4 @@ layout: nil
 User-agent: *
 Disallow:
 
-Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml.gz
+Sitemap: http://www.thepopcorncompanyllc.com/sitemap.xml.gz
